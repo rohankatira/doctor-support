@@ -1,0 +1,213 @@
+@media(max-width:600px){
+  *{
+
+
+  }
+  body{
+    width: 100%;
+
+  }
+  #location-info{
+    overflow-x: hidden;
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    
+  }
+  .logo>a{
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 600;
+
+  }
+  .location{
+    visibility: hidden;
+  }
+
+  /* nav */
+  #navigation{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    padding: 25px;
+    background-color: #003153;
+  }
+  #navlinks{
+    display: block;
+    padding-left: 55px;
+    background-color: #003153; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 1rem;
+    padding-right: 25%;
+    width: 100%;
+    
+   }
+   .icons{
+    padding-left: 25px;
+   }
+   #visit-schedule{
+    display: none;
+
+   }
+/* banner */
+.banner>img{
+  width: 100%;
+  height: 500px;
+}
+#content{
+  width: 80%;
+  margin-top: -74%;
+  margin-left: 0%;
+
+}
+#content>p{
+  width: 80%;
+};
+
+#visit-schedule-2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#visit-schedule-2>.visit-card{
+  z-index: 10;
+  width: 65%;
+  font-size: 15px;
+  margin-top: 15px;
+}
+#visit-schedule-2>.visit-card:nth-child(1){
+  background-color: #12C5C3;
+}
+#visit-schedule-2>.visit-card:nth-child(2){
+  background-color: #00E6E6;
+}
+#visit-schedule-2>.visit-card:nth-child(3){
+  background-color: #28B6F6;
+}
+  .facilities>img{
+    width: 100%;
+  }
+
+   .facilities{
+      flex-direction: column;
+      
+   }
+   .facility-container > h1{
+    font-size: 15px;
+    width: 100%;
+  }
+   /* footer */
+   #our-gallery{
+    display: block;
+    width: 100%;
+   }
+   .footer-main-container{
+    flex-direction: column;
+    align-items: center;
+    background-color: #003153;
+    height: auto;
+   }
+   #medisupport{
+    width: 100%;
+   }
+   #contact-us{
+    margin-top: 25%;
+    width: 100%;
+   }
+   #newsletter{
+    width: 100%;
+   }
+   /* ourlocation */
+   .our-location{
+    flex-direction: column;
+
+  }
+  .our-location>iframe{
+    width: 100%;
+    height: 200px;
+  }
+  #forms{
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+/* why to choose us-box */
+  .why-to-choose-us-box{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    
+    margin-bottom:35%;
+   }
+   .why-to-chooseus-boxes{
+    width: 75%;
+    text-align: center;
+    margin-right: 35%;
+   }
+   .why-to-chooseus-boxes>.box-head{
+    font-size: 18px;
+   }
+   .box-dec>p{
+    font-size: 16px;
+   }
+   /* about us */
+#about-us{
+  justify-content: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#about-us>.about-contain{
+  width: 94%;
+}
+#about-us>.about-img{
+  width:200px;
+  height: 300px;
+}
+.about-contain>h2{
+width: 100%;
+font-size: 20px;
+}
+.about-contain>p{
+  width: 57%;
+  font-size: 10px;
+}
+
+.news-letter-heading>p{
+  margin-top: 29%;
+}
+.news-latter-main{
+  margin-top: 15%;
+}
+#ourteam-main{
+  display:flex;
+  flex-direction: column;
+}
+.our-team-card{
+  width: 55%;
+  margin-left: 25%;
+  overflow-x: hidden;
+}
+.Testimonial-inline-block-containear{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.Testimonial{
+  width: 70%;
+}
+.Testimonial-head-containear>h3{
+max-width: 100%;
+}
+.pic>img{
+  height: 15vh;
+}
+}
